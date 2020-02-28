@@ -1,0 +1,52 @@
+<style>
+body {
+ font-family:  'Crimson Text', serif;
+}
+img {
+  float: left;
+  padding: 10px;
+  
+}
+
+p{
+  margin: 0;
+  text-align: justify;
+}
+
+@media (min-width: 640px) {
+
+/* For mobile phones: */
+.col-lg {
+  display: none;
+}
+
+.col h1 {
+  margin-inline: auto;
+}
+
+}
+
+@media (max-width: 980px)
+{
+  nav ul{
+  list-style:none;
+  text-align: left;
+  padding: 0;
+  margin:auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  }
+}
+
+.container{
+  max-width: max-content;
+  min-width: min-content;
+  margin: 0 auto;
+}
+
+
+
+
+</style>
