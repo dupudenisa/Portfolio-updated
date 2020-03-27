@@ -12,7 +12,10 @@ p{
   margin: 0;
   text-align: justify;
 }
-
+#pg {
+width: 650px;
+height:350px;
+}
 @media (min-width: 640px) {
 
 /* For mobile phones: */
@@ -58,3 +61,4 @@ body {
   color:blue;
   background-color: rgb(125, 170, 197);
 }
+
